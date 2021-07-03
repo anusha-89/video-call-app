@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "724794738252",
+    "project_id": "teamsclonesample",
+    "storage_bucket": "teamsclonesample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724794738252:android:db928e8733582efca596e9",
+        "android_client_info": {
+          "package_name": "com.example.teamsclonesample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724794738252-02421cfqrtghod4oitlhnoai7mserad5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUVJG6Md4wthzGPJTtNCL2hgbMSspFTk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724794738252-02421cfqrtghod4oitlhnoai7mserad5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
