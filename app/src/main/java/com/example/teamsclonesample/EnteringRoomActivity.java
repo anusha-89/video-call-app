@@ -19,7 +19,7 @@ import java.net.URL;
 public class EnteringRoomActivity extends AppCompatActivity {
 
     EditText codeText;
-    Button joinButton,codeSharingButton,gameButton;
+    Button joinButton,codeSharingButton,gameButton,schedulingMeetingBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +43,15 @@ public class EnteringRoomActivity extends AppCompatActivity {
         joinButton = findViewById(R.id.joinButton);
         codeSharingButton = findViewById(R.id.sharingButton);
         gameButton = findViewById(R.id.gameButton);
+        schedulingMeetingBtn = findViewById(R.id.schedulingMeeting);
+
+        //schedule meeting activity
+        schedulingMeetingBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(EnteringRoomActivity.this,scheduleMeetingActivity.class));
+            }
+        });
 
         //TIC-TAC-TOE game
         gameButton.setOnClickListener(new View.OnClickListener() {

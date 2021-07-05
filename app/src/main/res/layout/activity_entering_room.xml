@@ -61,10 +61,21 @@
                 android:text="share" />
 
             <Button
+                android:id="@+id/schedulingMeeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="#00000000"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Schedule your meeting" />
+
+            <Button
                 android:id="@+id/gameButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
                 android:background="#00000000"
                 android:textColor="@color/black"
                 android:text="Waiting for friends to join the call? \nTap here to play Tic-Tac-Toe "/>

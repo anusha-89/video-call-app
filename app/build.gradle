@@ -64,5 +64,10 @@ dependencies {
     //Lottie dependency
     implementation 'com.airbnb.android:lottie:3.7.0'
 
+    //schedule and notify meeting
+    implementation 'com.github.jakebonk:NotifyMe:1.0.0'
+    implementation 'com.wdullaer:materialdatetimepicker:3.6.0'
+
+
  
 }
