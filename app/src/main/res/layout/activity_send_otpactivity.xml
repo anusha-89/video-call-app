@@ -9,8 +9,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,21 +21,21 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginTop="50dp"
             android:layout_gravity="center"
-            android:src="@drawable/paper_plane_icon"/>
+            android:layout_marginTop="50dp"
+            android:src="@drawable/paper_plane_icon" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:text="@string/otp_verification"
-            android:textColor="@color/black"
-            android:gravity="center"
             android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/otp_verification"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
             android:textSize="28sp"
-            android:textStyle="bold"
-            android:textAllCaps="true"/>
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
@@ -42,31 +43,31 @@
             android:layout_marginStart="50dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="50dp"
+            android:fontFamily="@font/muli_extralight"
             android:gravity="center"
             android:text="@string/we_will_send_you_an_otp_on_this_mobile_number"
-            android:fontFamily="@font/muli_extralight"
             android:textColor="@color/black"
-            android:textSize="18sp"/>
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
             android:layout_marginTop="40dp"
+            android:layout_marginEnd="30dp"
             android:gravity="center"
             android:text="@string/enter_the_mobile_number"
             android:textColor="@color/black"
-            android:textSize="18sp"/>
+            android:textSize="18sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="60dp"
             android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_marginTop="20dp">
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -75,21 +76,21 @@
                 android:text="@string/_91"
                 android:textColor="@color/black"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
 
             <EditText
                 android:id="@+id/inputMobile"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
-                android:background="#F3EEEE"
                 android:layout_marginLeft="5dp"
+                android:background="#F3EEEE"
                 android:hint="@string/_1234567890"
                 android:imeOptions="actionDone"
                 android:importantForAutofill="no"
                 android:inputType="number"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
 
         </LinearLayout>
@@ -99,7 +100,7 @@
             android:layout_height="3dp"
             android:layout_marginStart="70dp"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="70dp"/>
+            android:layout_marginEnd="70dp" />
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -114,20 +115,17 @@
                 android:text="@string/get_otp"
                 android:textColor="@color/white"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <ProgressBar
                 android:id="@+id/progressBar"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
-                android:visibility="gone"/>
-
-
+                android:visibility="gone" />
 
 
         </FrameLayout>
-
 
 
     </LinearLayout>
