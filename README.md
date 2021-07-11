@@ -1,6 +1,6 @@
 # video-call-app
 A fully functional video calling android app has been developed using Android Studio, JAVA language, Firebase Auth, Firebase database and Jitsi SDK.
-It is recommended to run the app on a screen size of 6.2 in or more.
+It is recommended to run the app on a screen size of 6.2 in or more. Scrum methodology has been used for executing the project.
 
 The app comes with the following activities:
 Login screen : The user can login using his email id and password, or an OTP login feature is also available, wherein an OTP would be sent to the registered mobile number and after verification, the user would be logged in. Forget Password button sends the user a reset password link on the registered email id. Users can sign up for a new account using 'New User? Sign up' button. The theme of the screen could be changed using the day-night theme changing switch.
